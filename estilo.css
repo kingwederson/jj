@@ -1,0 +1,125 @@
+body{
+    margin:-21px 0px 0px 0px;
+    width:97%;
+    color:white;
+    background-color:rgb(10, 2, 21);
+}
+header{
+    background-color: rgb(10, 2, 21);
+    background-image: url("https://www.bomjardimdeminas.mg.gov.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-29-at-18.14.20.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 0px;
+    background-size: 100%;
+    color:rgb(210, 171, 102);
+    vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    width:100%;
+}
+header div{
+    position:relative;
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin:auto;
+}
+div.caderno{
+    margin:10px;
+    text-align: center;
+}
+div#indice{
+    columns: 400px;
+}
+header h1,
+header h2{
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: -2px 2px 2px 2px blue;
+}
+header h1{
+    font-size: 36pt;
+    font-family: 'Comic Sans MS';
+    color:white;
+    background-color: rgb(157,7,13);
+    border-radius: 20px;
+}
+header h2{
+    font-size: 26pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    color:rgb(210, 171, 102);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+table#cabecalho{
+    margin:auto;
+}
+img.logo{
+    max-width:250px;
+    padding:20px;
+}
+img.produto{
+    border-radius: 20px;
+    max-width: 300px;
+}
+nav{
+    vertical-align: top;
+    text-align: center;
+}
+nav li{
+    position:relative;
+    display: block;
+    font-family: "Arial Black", Helvetica, sans-serif;
+    background-color: rgb(157,7,13);
+    color: rgb(255, 255, 255);
+    padding:10px;
+    margin:2px;
+    width:100%;
+}
+nav li:hover{
+    color: rgb(210, 171, 102);
+    background-color: rgb(197,47,53);
+}
+figure{
+    display:inline-block;
+    margin:20px;
+}
+figure.cita{
+    display:inline-block;
+    border:dotted rgb(157,7,13) 1px;
+    border-radius:10px;
+    padding:10px;
+}
+figure.cita img{
+    display:inline-block;
+}
+figure.cita q{
+    font-size:22pt;
+    display:inline-block;
+    max-width:300px;
+    text-align:center;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    filter:blur(2px);
+}
+span.contato{
+    font-size:26pt;
+    font-family: 'Arial Black', Helvetica, sans-serif;
+    color: rgb(157,7,13);
+}
+footer{
+    background-color: rgb(157,7,13);
+    color: rgb(210, 171, 102);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    padding:20px;
+    width:100%;
+}
