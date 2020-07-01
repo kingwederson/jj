@@ -4,13 +4,18 @@ body{
     color:white;
     background-color:rgb(10, 2, 21);
 }
+@media (max-width:800px){
+    nav li{
+        width:90vw;
+    }
+}
 header{
     background-color: rgb(10, 2, 21);
     background-image: url("https://www.bomjardimdeminas.mg.gov.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-29-at-18.14.20.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 0px;
-    background-size: 100%;
+    background-size: 100vw;
     color:rgb(210, 171, 102);
     vertical-align: top;
     text-align: center;
@@ -25,7 +30,7 @@ header div{
     margin:auto;
 }
 div.caderno{
-    margin:10px;
+    margin:0px 0px 0px 5vw;
     text-align: center;
 }
 div#indice{
@@ -35,7 +40,6 @@ header h1,
 header h2{
     text-align: center;
     text-transform: uppercase;
-    box-shadow: -2px 2px 2px 2px blue;
 }
 header h1{
     font-size: 36pt;
@@ -47,11 +51,15 @@ header h1{
 header h2{
     font-size: 26pt;
     font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0px -1px 30px green,1px 0px 30px green,0px 1px 30px green,0px 1px 30px green;
 }
 h1,h2{
     color:rgb(210, 171, 102);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size:32pt;
 }
 table#cabecalho{
     margin:auto;
@@ -59,10 +67,68 @@ table#cabecalho{
 img.logo{
     max-width:250px;
     padding:20px;
-}
+}/*
 img.produto{
     border-radius: 20px;
-    max-width: 300px;
+    width: 300px;
+    border:2px solid green;
+    position:relative;
+    top:-50px;
+    left:0px;
+}*/
+div.produto{
+    width:300px;
+    height:300px;
+    background-color: black;
+    font-family:'Arial',sans-serif;
+    font-size: 20pt;
+    color:black;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin:20px 0px;
+    break-inside: avoid;
+    border-radius: 20px;
+    width: 300px;
+    border:5px solid green;
+}
+div.produto{
+    background-repeat: inherit;
+    text-align: center;
+}
+span.anuncio{
+    display: none;
+    margin:auto;
+    padding:20px 10px;
+    border-radius: 10px;
+}
+div.produto:hover span.anuncio{
+    display: block;
+    background-color: rgba(0,0,0,0.7);
+}
+span.preco{
+    background-color: green;
+    color:yellow;
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+    font-size:32pt;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div#produto1{
+    background-image: url("https://img.sitemercado.com.br/produtos/8a6a4f333b5ecc261bbd2d116b85a7f5e1a5c349b0c5d71bb2ae7962409d2789_full.jpg");
+}
+div#produto2{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYODG6mGIpfl6xcgC369etQp-eclJCZGgkWw&usqp=CAU");
+}
+div#produto3{
+    background-image: url("https://www.portalsabores.com.br/wp-content/uploads/2015/02/feijoada-light.jpg");
+}
+div#produto4{
+    background-image: url("https://hiperideal.vteximg.com.br/arquivos/ids/182968-292-292/75793.jpg");
+}
+div#produto5{
+    background-image: url("https://i.ytimg.com/vi/Av-P7Zk9mo0/hqdefault.jpg");
 }
 nav{
     vertical-align: top;
@@ -76,7 +142,7 @@ nav li{
     color: rgb(255, 255, 255);
     padding:10px;
     margin:2px;
-    width:100%;
+    min-width:20vw;
 }
 nav li:hover{
     color: rgb(210, 171, 102);
@@ -122,4 +188,11 @@ footer{
     font-size: 20pt;
     padding:20px;
     width:100%;
+}
+input[type="button"].pedido{
+    background-color:green;
+    color:white;
+    padding:9px;
+    border-radius: 12px;
+    font-size: 22pt;
 }
