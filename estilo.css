@@ -5,18 +5,19 @@ body{
     background-color:rgb(10, 2, 21);
 }
 @media (max-width:800px){
-    nav li{
+    nav,nav li{
         width:90vw;
+        margin:0px 0px 0px -110px;
     }
 }
 header{
-    background-color: rgb(10, 2, 21);
-    background-image: url("https://www.bomjardimdeminas.mg.gov.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-29-at-18.14.20.jpeg");
+    color: rgb(10, 2, 21);
+    /*background-image: url("https://www.bomjardimdeminas.mg.gov.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-29-at-18.14.20.jpeg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 0px;
     background-size: 100vw;
-    color:rgb(210, 171, 102);
+    background-color:rgb(210, 171, 102);
     vertical-align: top;
     text-align: center;
     padding: 20px;
@@ -84,9 +85,9 @@ div.produto{
     font-size: 20pt;
     color:black;
     background-position-x: center;
-    background-position-y: center;
+    background-position-y: none;
     background-repeat: no-repeat;
-    margin:20px 0px;
+    margin:20px auto;
     break-inside: avoid;
     border-radius: 20px;
     width: 300px;
@@ -105,6 +106,7 @@ span.anuncio{
 div.produto:hover span.anuncio{
     display: block;
     background-color: rgba(0,0,0,0.7);
+    height:88%;
 }
 span.preco{
     background-color: green;
