@@ -1,8 +1,8 @@
 body{
     margin:-21px 0px 0px 0px;
     width:97%;
-    color:white;
-    background-color:rgb(10, 2, 21);
+    background-color:rgb(210, 171, 102);
+    color:rgb(10, 2, 21);
 }
 @media (max-width:800px){
     nav,nav li{
@@ -11,13 +11,13 @@ body{
     }
 }
 header{
-    color: rgb(10, 2, 21);
+    background-color: rgb(10, 2, 21);
     /*background-image: url("https://www.bomjardimdeminas.mg.gov.br/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-29-at-18.14.20.jpeg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: 0px;
     background-size: 100vw;
-    background-color:rgb(210, 171, 102);
+    color:rgb(210, 171, 102);
     vertical-align: top;
     text-align: center;
     padding: 20px;
